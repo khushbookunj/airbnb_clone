@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.footerContainer{
+    width: 100%;
+    
+    background-color: rgb(247,247,247);
+}
+.lastPartFooterBox{
+    max-width: 95%;
+    margin: auto;
+    border-bottom: 1px solid grey ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    
+   
+}
+.lastPartFooterBox div{
+   
+    margin: 4rem  13rem 4rem 0;
+   
+   
+    
+}
+.lastPartFooterBox div ul li{
+   padding: 0.2rem;
+   cursor: pointer;
+   color: rgb(147,147,147);
+}
+.lastPartFooterBox div ul li:hover{
+    text-decoration: underline;
+}
