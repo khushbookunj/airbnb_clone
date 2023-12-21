@@ -1,0 +1,37 @@
+.footerBotomBox{
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+   
+    padding: 0.8rem 0;
+ 
+}
+.footerBotomBox div:nth-child(1){
+    display: flex;
+   flex-wrap: wrap;
+  
+   
+}
+.footerBotomBox div:nth-child(1) p{
+    padding-right: 0.6rem;
+    color: rgb(147,147,147);
+}
+
+.footerBotomBox div:nth-child(2){
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+  
+   
+}
+.footerBotomBox div:nth-child(2) p{
+    padding-left: 0.6rem;
+    color: rgb(28, 27, 27);
+    font-weight: 600;
+}
+.icon{
+    font-size:1.5rem ;
+}
