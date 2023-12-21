@@ -1,0 +1,83 @@
+export const CarouselData=[
+    {
+        image:'https://a0.muscache.com/pictures/a4634ca6-1407-4864-ab97-6e141967d782.jpg',
+        title:'Lake'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg',
+        title:'OMG!'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg',
+        title:'Arctic'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg',
+        title:'Amazing pools'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg',
+        title:'Bed & breakfasts'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/7ff6e4a1-51b4-4671-bc9a-6f523f196c61.jpg',
+        title:'Riads'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/51f5cf64-5821-400c-8033-8a10c7787d69.jpg',
+        title:'Hanoks'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/a6dd2bae-5fd0-4b28-b123-206783b5de1d.jpg',
+        title:'Desert'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/827c5623-d182-474a-823c-db3894490896.jpg',
+        title:'Ryokans'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg',
+        title:'Camping'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg',
+        title:'Treehouses'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/0ff9740e-52a2-4cd5-ae5a-94e1bfb560d6.jpg',
+        title:'Containers'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/4759a0a7-96a8-4dcd-9490-ed785af6df14.jpg',
+        title:'Yurts'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/48b55f09-f51c-4ff5-b2c6-7f6bd4d1e049.jpg',
+        title:'Minsus'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/d7445031-62c4-46d0-91c3-4f29f9790f7a.jpg',
+        title:'Earth homes'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/f0c5ca0f-5aa0-4fe5-b38d-654264bacddf.jpg',
+        title:'Play'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg',
+        title:'Historical homes'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/4221e293-4770-4ea8-a4fa-9972158d4004.jpg',
+        title:'Caves'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg',
+        title:'Amazing views'
+    },
+    {
+        image:'https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg',
+        title:'Design'
+    },
+
+]

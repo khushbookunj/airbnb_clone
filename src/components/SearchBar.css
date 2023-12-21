@@ -1,0 +1,23 @@
+.searchbar-page{
+    position: absolute;
+   background-color: white;
+   z-index: 10;
+   top: 4.5rem;
+   right:32rem;
+   border: none;
+  
+
+
+}
+.searchbar-page input{
+    padding: 0.7rem 15rem 0.7rem 1rem;
+ font-size: 1.2rem;
+ color: gray;
+
+
+ z-index: 10;
+ border: none;
+ border: 1px solid var(--gray);
+ outline: none;
+ border-radius: 3rem;
+}

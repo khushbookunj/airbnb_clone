@@ -1,0 +1,42 @@
+.user-details{
+position: absolute;
+top: 4rem;
+right: 3rem;
+border: 1px solid var(--gray);
+border-top: none;
+line-height: 2rem;
+background-color:white;
+opacity: 1;
+z-index: 4;
+
+padding: 1rem 0.5rem;
+min-height: 12rem;
+border-radius: 1rem;
+}
+.winter-release{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 1rem;
+}
+.new{
+    background-color: rgb(246, 89, 89);
+    font-size: 12px;
+    padding: 0px 4px;
+    font-weight: 600;
+    margin-left: 0.2rem;
+    border-radius: 0.2rem;
+}
+.signup{
+    cursor: pointer;
+}
+.login{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+   cursor: pointer;
+    border-bottom: 1px solid var(--gray);
+}
+.help_centre{
+    cursor: pointer;
+}
+

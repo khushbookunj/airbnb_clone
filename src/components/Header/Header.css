@@ -1,0 +1,112 @@
+.navbar{
+    max-width: 95%;
+    border-bottom: 1px solid var(--gray);
+    display: flex;
+    align-items: center;
+    font-family: 'nunito sans',sans-serif;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    /* padding: 0.2rem 1.5rem; */
+}
+.navbar img{
+    height: 5rem;
+    cursor: pointer;
+}
+.search_bar{
+    display: flex;
+   border:1px solid var(--gray);
+    /* padding: 10px 100px; */
+    padding: 0.7rem;
+    border-radius: 5rem;
+align-items: center;
+    width: 25%;
+    justify-content: space-between;
+   
+  
+  
+    
+    
+}
+.add_guest{
+    color: var(--darkGray);
+}
+.any_where{
+    /* margin-right: 30px; */
+    border-right: 1px solid var(--gray);
+    padding-right: 1rem;
+    font-weight: 500;
+
+}
+.search_bar .glass{
+    background-color: rgb(246, 89, 89);
+    border-radius: 50%;
+    color: var(--white);
+    padding: 0.5rem;
+}
+.search_bar:hover{
+    box-shadow: 1px 1px 1px 1px  var(--gray ,0.2);
+}
+.any_week{
+    border-right: 1px solid var(--gray);
+    padding-right: 1rem;
+}
+.about_section{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 22%;
+    justify-content: space-between;
+    
+    padding: 0.7rem 0rem;
+    
+    align-items: center;
+    /* justify-items: center; */
+
+}
+.airbnb_home:hover{
+    /* border: 1px solid gray; */
+    padding: 0.5rem ;
+    border-radius: 5rem;
+    background-color: var(--lightGray);
+}
+.globe:hover{
+    /* border: 1px solid gray; */
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--lightGray);
+
+}
+.about_section .globe{
+    color: var(--lightBlack);
+}
+.about_section .bar{
+    color: var(--lightBlack);
+}
+.profile{
+    display: flex;
+    border: 1px solid var(--gray);
+    width: 20%;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+    border-radius: 5rem;
+    align-items: center;
+    
+}
+.profile:hover{
+    box-shadow: 1px 1px 1px 1px  var(--gray ,0.2);
+}
+.profile .user{
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: gray;
+    color: var(--white);
+   
+}
+.glass{
+    cursor: pointer;
+}
+.user{
+    cursor: pointer;
+}
