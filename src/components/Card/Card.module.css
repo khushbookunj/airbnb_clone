@@ -1,38 +1,33 @@
-
-.CardContainer{
-    max-width: 95%;
-    margin: 2rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  
-    
-}
-.singleCardBox{
+.singleCardBox {
     cursor: pointer;
-  
-   
-}
-.containerStyles{
-width: 345px;
-height: 280px;
-margin: 0 0.4rem;
+
 
 }
-.nameAadRatingDiv{
+
+.containerStyles {
+    width: 320px;
+    height: 250px;
+    margin: 0 0.4rem;
+
+}
+
+.nameAadRatingDiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0.2rem 0.5rem 0 0.5rem;
 }
-.singleCardBox p{
-padding: 0 0.3rem;
-color: rgb(121,126,138);
+
+.singleCardBox p {
+    padding: 0 0.3rem;
+    color: rgb(121, 126, 138);
 }
-#price{
+
+#price {
     color: black;
     font-weight: 500;
 }
-#night{
+
+#night {
     font-weight: 100;
 }
