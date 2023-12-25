@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calenderContainer{
+    position: absolute;
+    max-height:50%;
+    background-color: gray;
+    /* height: 100vh; */
+    top: 100%;
+    left: 65%;
+}

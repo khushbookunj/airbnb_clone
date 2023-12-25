@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import styles from './HotelDetailPage.module.css';
 import HotelDtailImage from './HotelDtailImage';
+import Calender from './Calender';
 
 const HotelDetailPage = ({data,name}) => {
     // console.log(data)
@@ -60,6 +61,7 @@ const HotelDetailPage = ({data,name}) => {
 
  ))
 }
+    <Calender/>
 </>
  
  

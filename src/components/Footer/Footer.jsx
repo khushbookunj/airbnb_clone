@@ -7,7 +7,7 @@ import FooterBottom from './FooterBottom/FooterBottom'
 const Footer = () => {
   return (
     <div className={style.footerContainer}>
-        <FirstFooter/>
+        {/* <FirstFooter/> */}
         <hr />
         <div className={style.lastPartFooterBox}>
 

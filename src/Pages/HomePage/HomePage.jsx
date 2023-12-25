@@ -4,6 +4,7 @@ import Card from '../../components/Card/Card';
 import cardJson from '../../wharehouse/Lake.json';
 import PageContainer from '../../components/PageContainer';
 import { Carousel } from '../../components/Carousel';
+import FirstFooter from '../../components/Footer/FirstFooter/FirstFooter';
 
 const HomePage = () => {
   console.log(cardJson);
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Layout>
         <Carousel />
         <PageContainer data={cardJson?.data} />
+        <FirstFooter/>
       </Layout>
     </>
   )
