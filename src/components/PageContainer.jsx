@@ -5,6 +5,8 @@ import style from './PageConatiner.module.css'
 
 
 const PageContainer = ({ data }) => {
+
+   
     return (
         <div className={style.CardContainer}>
             {
@@ -17,6 +19,7 @@ const PageContainer = ({ data }) => {
                         date={i.date}
                         rating={i.rating}
                         price={i.price}
+                        
                     />
                 })
             }
