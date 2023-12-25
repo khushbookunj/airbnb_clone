@@ -2,18 +2,19 @@ import React,{useState,useEffect} from 'react'
 import styles from './HotelDetailPage.module.css';
 import HotelDtailImage from './HotelDtailImage';
 
-const HotelDetailPage = ({data,name}) => {
+const HotelDetailPage = ({data,id}) => {
     // console.log(data)
+    console.log(id)
     // console.log(name)
     const [hotel,setHotel]=useState([]);
-    // const {name}=useParams();
-    console.log(name)
+    // const {id}=useParams();
+    // console.log(name)
    
 
     useEffect(()=>{
-        const cardJsonData=data.filter((item)=>item.name===name)
+        const cardJsonData=data.filter((item)=>item.id==id)
         setHotel(cardJsonData)
-    },[name]);
+    },[id]);
     
    console.log(hotel)
 

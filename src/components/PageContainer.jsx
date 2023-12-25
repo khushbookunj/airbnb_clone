@@ -12,7 +12,7 @@ const PageContainer = ({ data }) => {
             {
                 data.map((i) => {
                     return <Card
-                        key={i.id}
+                        id={i.id}
                         image={i.image}
                         name={i.name}
                         title={i.title}

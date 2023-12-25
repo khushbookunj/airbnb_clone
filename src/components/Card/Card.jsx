@@ -4,7 +4,8 @@ import style from './Card.module.css'
 import { FaStar } from "react-icons/fa";
 import {useNavigate} from 'react-router';
 
-const Card = ({ image, name, title, date, rating, price }) => {
+const Card = ({ id, image, name, title, date, rating, price }) => {
+    console.log(id);
     console.log(image);
     const navigate=useNavigate();
 
@@ -16,8 +17,8 @@ const Card = ({ image, name, title, date, rating, price }) => {
     //     { url: "https://a0.muscache.com/im/pictures/d4d1f0c3-9177-4681-bb9a-01883ed7269d.jpg?im_w=720", title: "italy" }
     // ];
 const handleCardClick=()=>{
-    console.log("cart click" ,name);
-    navigate(`/hotel-detailPage/${name}`)
+    console.log("cart click" ,id);
+    navigate(`/hotel-detailPage/${id}`)
 }
 
     return (

@@ -7,11 +7,11 @@ import HotelDescription from '../components/HotelDetailsPage/HotelDescription';
 
 
 const HotelDetails = () => {
-const {name}=useParams();  
+const {id}=useParams();  
   return (
    <>
    <Layout>
-   <HotelDetailPage data={cardJson?.data} name={name}/>
+   <HotelDetailPage data={cardJson?.data} id={id}/>
    <HotelDescription />
    </Layout>
  
